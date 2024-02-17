@@ -1,0 +1,113 @@
+.animation{
+    width: 200px;
+    height: 300px;
+    background-color: blueviolet;
+    animation-name: color;
+    animation-duration: 5s;
+    animation-timing-function:ease-out ;
+    animation-delay: 0s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-fill-mode: none;
+    animation-play-state: running;
+}
+@keyframes color{
+    0% {background-color: blueviolet;}
+
+    10% {background-color: aliceblue;}
+
+    20% {background-color: aqua;}
+
+    30% {background-color: aquamarine;}
+
+    40% {background-color: azure;}
+
+    50% {background-color: bisque;}
+
+    60% {background-color: black;}
+
+    70% {background-color: blue;}
+
+    80% {background-color: brown;}
+
+    90% {background-color: red;}
+
+    100% {background-color: pink;}
+
+}
+.block1{
+    background-color: rgb(99, 99, 99);
+    animation-duration: 5s;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-name: size;
+}
+@keyframes size{
+    0%{
+        background-color: blueviolet;
+        width: 300px;
+        height: 400px;
+
+
+    }
+    
+    10% {background-color: aliceblue;}
+
+    20% {background-color: aqua;}
+
+    30% {background-color: aquamarine;}
+
+    40% {background-color: azure;}
+
+    50% {background-color: bisque;}
+
+    60% {background-color: black;}
+
+    70% {background-color: blue;}
+
+    80% {background-color: brown;}
+
+    90% {background-color: red;}
+
+    100%{
+        background-color: pink;
+        width: 50px;
+        height: 60px;
+    }
+}
+.block2{
+    background-color: bisque;
+    animation-name: circle;
+    width: 200px;
+    height: 200px;
+    animation-duration: 1s;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-delay: 3s;
+
+}
+@keyframes circle{
+    0%{
+        border-radius: 4px;
+    }
+    100%{
+        border-radius: 50%;
+    }
+}
+.animation h1{
+    font-size: 30px;
+    text-align: left;
+    color: rgb(161, 161, 251);
+    animation-duration: 7s;
+    animation-timing-function:linear ;
+    animation-delay: 3s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-name: move;
+}
+@keyframes move{
+    0%{padding-left: 0%;}
+    100%{padding-left: 100%;}
+}
